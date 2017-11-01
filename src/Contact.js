@@ -1,9 +1,15 @@
 import React from 'react'
+import { DB_CONFIG } from './config/config';
+import 'firebase/database';
+import firebase from 'firebase/app';
 import "./index.css"
 
 class Contact extends React.Component {
 constructor(){
 	super();
+
+	this.app = firebase.initializeApp(DB_CONFIG);
+    this.database = this.app.database().ref().child('DATA')
 
 	this.state = {
     	userName	: '',
@@ -20,7 +26,7 @@ handleChange = (e) => {
 handleSubmit = (e) => {
 	e.preventDefault()
 	const user = this.state
-	this.database.push().set({ userInfo: user })
+	this.database.push().set({ DATA: user })
 
 	this.setState({
 		userName	: '',

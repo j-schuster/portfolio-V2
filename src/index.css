@@ -29,7 +29,6 @@ body {
 .section-hero {
 	position: relative;
 	overflow: auto;
-	height: 100vh;
 	background: #131417;
 	
 }
@@ -97,6 +96,7 @@ body {
 	text-align: center;
 	margin-top: 15px;
 	margin-right: 20px;
+	margin-bottom: 40px;
 }
 
 
@@ -133,11 +133,12 @@ body {
 	background-size: cover;
 }
 
+/*
 .section-about {
 	height: 100vh;
 
 }
-
+*/
 .section-about h3 {
 	color: #228CDB;
 	margin-top: 20px;
@@ -155,6 +156,10 @@ body {
 	text-align: left;
 }
 
+.technologies {
+	margin: 0 auto;
+}
+
 
 .background {
 	height: 50%;
@@ -169,6 +174,7 @@ body {
 
 .skills {
 	height: 50%;
+	margin-bottom: 50px;
 }
 
 .skills li {
@@ -179,7 +185,7 @@ body {
 }
 
 .skills-text {
-	margin: 40px 0 0 50px;
+	margin-left: 12px;
 	color: #50555b;
 }
 
@@ -202,6 +208,8 @@ body {
 	font-weight: 100;
 	text-align: left;
 }
+
+
 
 .projects-text a {
 	color: #a0a0a0;
