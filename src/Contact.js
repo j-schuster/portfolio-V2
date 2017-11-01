@@ -39,12 +39,12 @@ handleSubmit = (e) => {
 
 render(){
 		return(
-		<div>
 		<div id="contact" className="contact">
+	
 			<h1 className="contact-me">Get in touch!</h1>
 		
 		 	
-			   <div className="form-contact">
+			   <div id="contact-f" className="form-contact">
 			      <form onSubmit={this.handleSubmit}>
 			        <div className="form-group">
 			            <label>Name</label>
@@ -80,8 +80,8 @@ render(){
 			        <button type="submit" className="btn btn-primary">Submit </button>
 			      </form>
 			    </div>
-			     </div>
-			    </div>    
+			    </div> 
+			       
 			);
 		
 		}
