@@ -30,7 +30,7 @@ body {
 	position: relative;
 	overflow: auto;
 	background: #131417;
-	
+	text-align: center;	
 }
 
 .headshot {	
@@ -60,6 +60,7 @@ body {
 	font-size: 22px;
 	font-weight: 100;
 	text-align: center;
+
 }
 
 .action-buttons {
@@ -190,7 +191,6 @@ body {
 }
 
 .section-projects {
-	height: 240vh;
 	background-color: #131417;
 	text-align: center;
 }
@@ -203,13 +203,11 @@ body {
 }
 
 .projects-text {
-	margin-top: 260px;
+	
 	color:#c4c4c4;
 	font-weight: 100;
-	text-align: left;
+
 }
-
-
 
 .projects-text a {
 	color: #a0a0a0;
@@ -226,6 +224,66 @@ body {
 	font-size: 16px;
 }
 
+@media (min-width: 992px) {
+	.projects-text {
+		margin-top: 200px;
+	}
+
+    .projects-text p {
+    	text-align: left;
+
+    }
+    .projects-left {
+    	text-align: center;
+    	margin-bottom: -100px;
+    }
+
+    .projects-one {
+    	margin-right: 60px;
+    }
+ }
+
+
+@media (max-width: 991px) {
+	
+
+    .projects-text p {
+    	text-align: center;
+
+    }
+    .projects-left {
+    	text-align: center;
+    	margin-bottom: -100px;
+    }
+
+    .projects-one {
+    	margin-right: 60px;
+    }
+
+
+ }
+
+
+@media (max-width: 627px) {
+	.projects-text {
+		margin-top: 20px;
+	}
+
+    .projects-text p {
+    	text-align: center;
+
+    }
+    .projects-left {
+    	text-align: center;
+    	margin-bottom: -100px;
+    }
+
+    .projects-one {
+    	margin-right: 60px;
+    }
+
+
+ }
 
 .projects-one {
 	background: url('./photo/mac5.png');
@@ -238,7 +296,7 @@ body {
 
 .projects-two {
 	background: url('./photo/mac.png');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	height: 35em;
 	margin-top: 95px;
@@ -246,10 +304,11 @@ body {
 
 .projects-three {
 	background: url('./photo/mac9.png');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	height: 35em;
 	margin-top: 95px;
+	margin-bottom: 100px;
 }
 
 .technology {

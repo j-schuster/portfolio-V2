@@ -5,7 +5,7 @@ function About() {
         <div id="about" className="section-about container-fluid">
           <div className="background">
             <div className="row background-text">
-              <div className="col-md-4">
+              <div className="col-md-4 col-xsm-12">
                  <h3>BACKGROUND</h3>
                   </div> 
               <div className="col-md-6">
@@ -28,14 +28,14 @@ function About() {
             <h3 className="skills-h3">SKILLS</h3>
             </div>
             
-            <div className="row col-md-2 col-sm-6 col-xsm-6 technologies">
+            <div className="row col-md-2 col-sm-6 col-xs-12 technologies">
               <h3>LANGUAGES</h3>
               <li>JavaScript (es6)</li>
               <li>HTML5</li>
               <li>CSS3/SASS</li>
             </div>  
 
-             <div className="row col-md-2 col-sm-6 col-xsm-6 technologies">
+             <div className="row col-md-2 col-sm-6 col-xs-12 technologies">
               <h3>FRAMEWORKS</h3>
               <li>React</li>
               <li>Redux</li>
@@ -43,7 +43,7 @@ function About() {
               <li>jQuery</li>
             </div>
 
-             <div className="row col-md-2 col-sm-6 col-xsm-6 technologies">
+             <div className="row col-md-2 col-sm-6 col-xs-12 technologies">
               <h3>TOOLS</h3>
               <li>Node</li>
               <li>Bash</li>
@@ -52,7 +52,7 @@ function About() {
               <li>MongoDB</li>
             </div>  
 
-             <div className="row col-md-2 col-sm-6 col-xsm-6 technologies">
+             <div className="row col-md-2 col-sm-6 col-xs-12 technologies">
               <h3>DESIGN</h3>
               <li>Sketch</li>
               <li>Prototyping</li>

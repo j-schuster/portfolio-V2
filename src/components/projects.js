@@ -8,13 +8,13 @@ class Projects extends Component {
     return (
           <div id="projects" className="section-projects">
             <div className="row container-fluid">
-              <div className="col-md-3 projects-left">
+              <div className="col-md-3 col-sm-12 col-xs-12 projects-left">
                 <h3>RECENT PROJECTS</h3>
               </div>
-              <div className="col-md-7 projects-image-one">
+              <div className="col-md-7 col-sm-12 col-xs-12 projects-image-one">
                 <div className="projects-one"></div>
               </div>
-              <div className="col-md-2 projects-text">
+              <div className="col-md-2 col-sm-12 col-xs-12 projects-text">
                 <h4>Readable</h4>
                     <p>Readable is a content sharing web app built with React/ Redux.
                      <br/> It is the final project for Udacity’s React Nanodegree. <br/>The app incorporates state management using Redux,
@@ -25,12 +25,12 @@ class Projects extends Component {
              </div>
 
               <div className="row container-fluid">
-                  <div className="col-md-3 projects-left">
+                  <div className="col-md-3 col-sm-12 col-xs-12 projects-left">
               </div>
-              <div className="col-md-7 projects-image-one">
+              <div className="col-md-7 col-sm-12 col-xs-12 projects-image-one">
                  <div className="projects-two"></div>
               </div>
-              <div className="col-md-2 projects-text">
+              <div className="col-md-2 col-sm-12 col-xs-12 projects-text">
                 <h4>My Reads</h4>
                   <p>My Reads is book reading tracking application.
                    <br/> The user is able to search for books from a database and categorize them into shelves, <br/>

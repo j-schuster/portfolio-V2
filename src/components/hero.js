@@ -28,8 +28,10 @@ function Hero() {
 
           <div className="headshot"></div>
             <h3 className="header">Front End Web Developer</h3>
-            <p className="header-text">I'm a design oriented front end developer that brings life to great ideas with high-performant JavaScript code that creates unique user experiences.
-            </p>
+            <div className="container">
+            <span className="header-text">I'm a design oriented front end developer that brings life to great ideas with high-performant JavaScript code that creates unique user experiences.
+            </span>
+             </div>
             <div className="action-buttons">
               <button className="action-button" ><a href="#projects" >Projects</a></button>
               <button className="action-button" ><a href="#skills" >Skills</a></button>
