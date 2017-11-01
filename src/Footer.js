@@ -15,10 +15,10 @@ function Footer() {
 		    <div className="container-fluid">
 		    <div className="row">
 		    	  <div className="si-footer">
-              		 <div className="si-footer-icon"><a href="https://www.linkedin.com/in/johann-schuster-769528b2/" target="_blank"><LinkedIn/></a></div>
-             		 <div className="si-footer-icon"><a href="https://github.com/j-schuster" target="_blank"><GitHub/></a></div>
-             		 <div className="si-footer-icon"><a href="https://www.instagram.com/schussbass/" target="_blank"><Insta/></a></div>
-             		 <div className="si-footer-icon"><a href="https://medium.com/@schuster.bass" target="_blank"><Medium/></a></div>
+              		 <div className="si-footer-icon"><a href="https://www.linkedin.com/in/johann-schuster-769528b2/" target="_blank" rel="noopener noreferrer"><LinkedIn/></a></div>
+             		 <div className="si-footer-icon"><a href="https://github.com/j-schuster" target="_blank" rel="noopener noreferrer"><GitHub/></a></div>
+             		 <div className="si-footer-icon"><a href="https://www.instagram.com/schussbass/" target="_blank" rel="noopener noreferrer"><Insta/></a></div>
+             		 <div className="si-footer-icon"><a href="https://medium.com/@schuster.bass" target="_blank" rel="noopener noreferrer"><Medium/></a></div>
              	   </div>	 
 		    </div>
 		      <div className="row">

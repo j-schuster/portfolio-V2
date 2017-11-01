@@ -12,7 +12,7 @@ function AddProjects() {
                 <div className="other-projects-info col-md-6">
                     <h3>React Recipe App</h3>
                 
-                    <a href="https://codepen.io/j-schuster/full/qPOMmO/" target="_blank"><View className="icon-ap"/></a>
+                    <a href="https://codepen.io/j-schuster/full/qPOMmO/" target="_blank" rel="noopener noreferrer"><View className="icon-ap"/></a>
                     <p>This is a simple recipe application built with React and SASS.
                      A user can add recipes and store/ edit/ delete them as needed.
                       I strived to make clear distinctions between Container and UI 
@@ -31,8 +31,8 @@ function AddProjects() {
                 </div>
                 <div className="other-projects-info col-md-6">
                     <h3>Simon Game</h3>
-                    <a href="https://github.com/j-schuster/javascript-simon-game" target="_blank"><GitHub className="icon-ap"/></a>
-                    <a href="https://js-simone-game.herokuapp.com/" target="_blank"><View className="icon-ap"/></a>
+                    <a href="https://github.com/j-schuster/javascript-simon-game" target="_blank" rel="noopener noreferrer"><GitHub className="icon-ap"/></a>
+                    <a href="https://js-simone-game.herokuapp.com/" target="_blank"  rel="noopener noreferrer"><View className="icon-ap"/></a>
                     <p>Part of the advanced front-end projects for the Freecodecamp curriculum.
                      This is a digital replica of the famous 80’s memory game called Simon. 
                      The game sets a sequence that the user must follow, as the game progresses the sequence becomes harder and harder.
@@ -50,8 +50,8 @@ function AddProjects() {
                 </div>
                 <div className="other-projects-info col-md-6">
                     <h3>Pomodoro Clock</h3>
-                    <a href="https://github.com/j-schuster/pomodoro-clock" target="_blank"><GitHub className="icon-ap"/></a>
-                    <a href="https://js-pomodoro-clock.herokuapp.com/" target="_blank"><View className="icon-ap"/></a>
+                    <a href="https://github.com/j-schuster/pomodoro-clock" target="_blank" rel="noopener noreferrer"><GitHub className="icon-ap"/></a>
+                    <a href="https://js-pomodoro-clock.herokuapp.com/" target="_blank" rel="noopener noreferrer"><View className="icon-ap"/></a>
                     <p>Part of the advanced front-end projects for the Freecodecamp curriculum.
                      The pomodoro clock is a useful tool to manage work and rest intervals.
                       The application allows the user to set a time period for a work sesion and the same for a break session, 
@@ -69,8 +69,8 @@ function AddProjects() {
                 </div>
                 <div className="other-projects-info col-md-6">
                     <h3>Tic Tac Toe</h3>
-                    <a href="https://github.com/j-schuster/js-tic-tac" target="_blank"><GitHub className="icon-ap"/></a>
-                    <a href="https://codepen.io/j-schuster/pen/brvGRg" target="_blank"><View className="icon-ap"/></a>
+                    <a href="https://github.com/j-schuster/js-tic-tac" target="_blank" rel="noopener noreferrer"><GitHub className="icon-ap"/></a>
+                    <a href="https://codepen.io/j-schuster/pen/brvGRg" target="_blank" rel="noopener noreferrer"><View className="icon-ap"/></a>
                     <p>A version of the popular game with one extra feature.
                      I incorporated the famous MiniMax algorithm to make the game unbeatable. 
                      The user can at most tie against the computer. 
@@ -89,8 +89,8 @@ function AddProjects() {
                 </div>
                 <div className="other-projects-info col-md-6">
                     <h3>JS CALCULATOR</h3>
-                    <a href="https://github.com/j-schuster/js-calculator" target="_blank"><GitHub className="icon-ap"/></a>
-                    <a href="https://js-claculator.herokuapp.com/" target="_blank"><View className="icon-ap"/></a>
+                    <a href="https://github.com/j-schuster/js-calculator" target="_blank" rel="noopener noreferrer"><GitHub className="icon-ap"/></a>
+                    <a href="https://js-claculator.herokuapp.com/" target="_blank" rel="noopener noreferrer"><View className="icon-ap"/></a>
                     <p>Another one of the advanced front-end projects for Freecodecamp. 
                     It is a simple calculator that I built using Vanilla JavaScript.
                      The application has all the functionality of a simple calculator 
