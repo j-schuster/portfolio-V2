@@ -42,7 +42,7 @@ render(){
 		<div>
 		<div id="contact" className="contact">
 			<h1 className="contact-me">Get in touch!</h1>
-		 </div>
+		
 		 	
 			   <div className="form-contact">
 			      <form onSubmit={this.handleSubmit}>
@@ -80,6 +80,7 @@ render(){
 			        <button type="submit" className="btn btn-primary">Submit </button>
 			      </form>
 			    </div>
+			     </div>
 			    </div>    
 			);
 		

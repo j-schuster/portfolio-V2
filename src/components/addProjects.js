@@ -88,7 +88,7 @@ function AddProjects() {
                     
                 </div>
                 <div className="other-projects-info col-md-6">
-                    <h3>JAVASCRIPT CALCULATOR</h3>
+                    <h3>JS CALCULATOR</h3>
                     <a href="https://github.com/j-schuster/js-calculator" target="_blank"><GitHub className="icon-ap"/></a>
                     <a href="https://js-claculator.herokuapp.com/" target="_blank"><View className="icon-ap"/></a>
                     <p>Another one of the advanced front-end projects for Freecodecamp. 

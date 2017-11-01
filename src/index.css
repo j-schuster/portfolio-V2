@@ -241,6 +241,7 @@ body {
     .projects-one {
     	margin-right: 60px;
     }
+
  }
 
 
@@ -260,13 +261,23 @@ body {
     	margin-right: 60px;
     }
 
+    .projects-two {
+    	margin-left: 40px;
+    }
+
 
  }
 
 
 @media (max-width: 627px) {
 	.projects-text {
-		margin-top: 20px;
+		margin-top: -150px;
+
+	}
+
+	.projects-text:nth-of-type(3) {
+		margin-bottom: 80px;
+		
 	}
 
     .projects-text p {
@@ -276,13 +287,26 @@ body {
     .projects-left {
     	text-align: center;
     	margin-bottom: -100px;
+    	margin-top: 35px;
     }
 
     .projects-one {
     	margin-right: 60px;
     }
 
+    .projects-two {
+    	margin: 0 auto;
+    }
 
+    .projects-three {
+    	margin-bottom: -150px;
+
+    }
+
+
+   .projects-image-one {
+   		margin-top: -50px;
+   }
  }
 
 .projects-one {
@@ -332,9 +356,6 @@ body {
 	margin-top: -200px;
 }
 
-.section-additional-projects {
-	height: 230vh;
-}
 
 .section-additional-projects h3 {
 	color: #228CDB;
@@ -385,18 +406,17 @@ body {
 /* ========================== */
 
 .contact {
-
-	z-index: -1;
 	position: relative;
-	height: 100vh;
+	z-index: -1;
 	text-align: center;
 	font-weight: 100;
     background: #131417;
+    padding-bottom: 80px;
 }
 
 .form-contact {
 	width: 30%;
-	margin: -700px auto;
+	margin: 80px auto;
 	height: 530px;
 	text-align: left;
 	padding: 30px;
